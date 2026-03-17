@@ -3,110 +3,284 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="referrer" content="strict-origin-when-cross-origin">
         <title>Learn more about Ableton - maker of Live and Push | Ableton</title>
         <link rel="stylesheet" href="style.css">
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
 
-    <main>
+    <main class="main">
         <!--Header/Nav Links-->
-        <header>
-            <nav>
-                <a href="https://www.ableton.com/en/live/">Live</a>
-                <a href="https://www.ableton.com/en/push/">Push</a>
-                <a href="https://www.ableton.com/en/move/">Move</a>
-                <a href="https://www.ableton.com/en/note/">Note</a>
-                <a href="https://www.ableton.com/en/link/">Link</a>
-                <a href="https://www.ableton.com/en/shop/">Shop</a>
-                <a href="https://www.ableton.com/en/packs/">Packs</a>
-                <a href="https://www.ableton.com/en/help/">Help</a>
-
-                <a href="https://www.ableton.com/en/trial/">Trial</a>
-                <a href="https://www.ableton.com/en/login/?next=/en/about/">Login or register</a>
-            </nav>
-            <nav>
-                <a href="https://www.ableton.com/en/about/">About</a>
-                <a href="https://www.ableton.com/en/jobs/">Jobs</a>
-                <a href="https://www.ableton.com/en/ausbildung/">Apprenticeships</a>
+        <header class="header">
+            <nav class="nav-bar">
+                <div class="header-links">
+                    <a href="https://www.ableton.com/en/">
+                        <img class="ableton-logo" src="C:\Users\taylo\resources\Visual Studio Code Projects\Codecademy Projects\DevProjects\DevProject Flexbox-Business-Site-Starting\Images\Ableton-Link-Logos\pngwing.com.png">
+                    </a>
+                    <div class="right-side-links">
+                        <a href="https://www.ableton.com/en/live/">Live</a>
+                        <a href="https://www.ableton.com/en/push/">Push</a>
+                        <a href="https://www.ableton.com/en/move/">Move</a>
+                        <a href="https://www.ableton.com/en/note/">Note</a>
+                        <a href="https://www.ableton.com/en/link/">Link</a>
+                        <a href="https://www.ableton.com/en/shop/">Shop</a>
+                        <a href="https://www.ableton.com/en/packs/">Packs</a>
+                        <a href="https://www.ableton.com/en/help/">Help</a>
+                    </div>
+                    <div class="trial-login-links">
+                        <a class="a-trial"href="https://www.ableton.com/en/trial/">Try Live 12 for free</a>
+                        <a href="https://www.ableton.com/en/login/?next=/en/about/">Login or register</a>
+                    </div>
+                </div>
+                <div class="nav-separator"></div>
+                <div class="second-header-links">
+                    <a class="header-about-link" href="https://www.ableton.com/en/about/">About</a>
+                    <a class="header-jobs-link" href="https://www.ableton.com/en/jobs/">Jobs</a>
+                    <a class="apprenticeships-link" href="https://www.ableton.com/en/ausbildung/">Apprenticeships</a>
+                </div>
             </nav>
         </header>
+
         <!--Main Content-->
-        <div>
-            <div>
-                <h1>Ableton</h1>
-                <img src="Images\header.avif">
+        <div class="main-grid">
+            <div class="main-separator"></div>
+            <div class="opening">
+                <h1 class="brand-name">Ableton</h1>
+                <img class="header-img" src="Images\header.avif">
             </div>
-            <div>
-                <p>We make Live, Push, Note, Move and Link — unique software and hardware for music creation and performance. With these products, our community of users creates amazing things.
-Ableton was founded in 1999 and released the first version of Live in 2001. Our products are used by a community of dedicated musicians, sound designers, and artists from across the world.</p>
+            <!--First Section-->
+            <div class="first-section">
+                <h1 class="first-text">We make
+                    <a class="product-link" href="/en/live/">Live</a>,
+                    <a class="product-link" href="/en/push/">Push</a>,
+                    <a class="product-link" href="/en/note/">Note</a>,
+                    <a class="product-link" href="/en/move/">Move</a>, and
+                    <a class="product-link" href="/en/link/">Link</a> — unique software and hardware for music creation and performance. With these products, our community of users creates amazing things.</h1>
+                <p class="second-text">Ableton was founded in 1999 and released the first version of Live in 2001. Our products are used by a community of dedicated musicians, sound designers, and artists from across the world.</p>
             </div>
-            <div>
-                <img src="Images\photo-1.avif">
-                <img src="Images\photo-2.avif">
+            <!--Collage One-->
+            <div class="collage-one">
+                <div class="bg-color-grid">
+                    <div class="bg-color-lemonade"></div>
+                </div>
+                <div class="collage-img-one-grid">
+                    <img class="collage-img-one" src="Images\photo-1.avif">
+                </div>
+                <div class="collage-img-two-grid">
+                    <img class="collage-img-two" src="Images\photo-2.avif">
+                </div>
             </div>
-            <div>
-                <p>Making music isn't easy. It takes time, effort, and learning. But when you're in the flow, it's incredibly rewarding.</p>
-                <div>
+            <!--Second Section-->
+            <div class="second-section">
+                <div class="second-section-first-text">
+                    <p>Making music isn't easy. It takes time, effort, and learning. But when you're in the flow, it's incredibly rewarding.</p>
+                </div>
+                <div class="second-section-second-text">
                     <p>We feel the same way about making Ableton products. The driving force behind Ableton is our passion for what we make, and the people we make it for.</p>
                 </div>
             </div>
-            <div>
-
+            <!--Video-->
+            <div class="youtube-video">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9SbnhgjeyXA?si=zMJ_HBsAMwKqeVUK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
-            <div>
-                <p>We are more than 350 people from 30 different countries divided between our headquarters in Berlin and our offices in Los Angeles and Tokyo.</p>
-                <div>
+            <!--Third Section-->
+            <div class="third-section">
+                <div class="third-section-first-text">
+                    <p>We are more than 350 people from 30 different countries divided between our headquarters in Berlin and our offices in Los Angeles and Tokyo.</p>
+                </div>
+                <div class="third-section-second-text">
                     <p>Most of us are active musicians, producers, and DJs, and many of us use Live and Push every day. We come from a wide range of cultural and professional backgrounds. Some of us have PhDs, some are self-taught, and most of us are somewhere in between. What connects us is the shared belief that each of us has the skills and knowledge to contribute to something big: helping to shape the future of music culture.</p>
                 </div>
             </div>
-            <div>
-                <img src="Images\photo-3.avif">
-                <img src="Images\photo-4.avif">
-                <img src="Images\photo-5.avif">
+            <!--Collage Two-->
+            <div class="collage-two">
+                <div class="collage-two-bg-color-grid">
+                    <div class="bg-color-lime"></div>
+                </div>
+                <div class="collage-two-img-one-grid">
+                    <img class="collage-two-img-one" src="Images\photo-3.avif">
+                </div>
+                <div class="collage-two-img-two-grid">
+                    <img class="collage-two-img-two" src="Images\photo-4.avif">
+                </div>
+                <div class="collage-two-img-three-grid">
+                    <img class="collage-two-img-three" src="Images\photo-5.avif">
+                </div>
             </div>
-            <div>
-                <p>We believe it takes focus to create truly outstanding instruments. We only work on a few products and we strive to make them great.</p>
-                <div>
+            <!--Fourth Section-->
+            <div class="fourth-section">
+                <div class="fourth-section-first-text">
+                    <p>We believe it takes focus to create truly outstanding instruments. We only work on a few products and we strive to make them great.</p>
+                </div>
+                <div class="fourth-section-second-text">
                     <p>Rather than having a one-size-fits-all process, we try to give our people what they need to work their magic and grow. We've learned that achieving the best results comes from building teams that are richly diverse, and thus able to explore problems from a wider set of perspectives. We don't always agree with each other, but opinion and debate are valued and openly encouraged.</p>
                 </div>
             </div>
-            <div>
+            <!--Collage Three-->
+            <div class="collage-three">
                 <img src="Images\poster-meet-the-makers.avif">
             </div>
-            <div>
-                <p>We're passionate about what we do, but we're equally passionate about improving who we are.</p>
-                <div>
+            <!--Fifth Section-->
+            <div class="fifth-section">
+                <div class="fifth-section-first-text">
+                    <p>We're passionate about what we do, but we're equally passionate about improving who we are.</p>
+                </div>
+                <div class="fifth-section-second-text">
                     <p>We work hard to foster an environment where people can grow both personally and professionally, and we strive to create a wealth of opportunities to learn from and with each other.</p>
                 </div>
-                <div>
+                <div class="fifth-section-third-text">
                     <p>Alongside an internal training program, employees are actively supported in acquiring new knowledge and skills, and coached on applying these in their daily work. In addition, staff-organized development and music salons are a chance to discuss new technologies, production techniques and best practices.</p>
                 </div>
             </div>
-            <div>
-                <img src="Images\photo-6-a.avif">
-                <img src="Images\photo-7.avif">
+            <!--Collage Four-->
+            <div class="collage-four">
+                <div class="collage-four-bg-color-grid">
+                    <div class="bg-color-magenta"></div>
+                </div>
+                <div class="collage-four-img-one-grid">
+                    <img class="collage-four-img-one" src="Images\photo-6-a.avif">
+                </div>
+                <div class="collage-four-img-two-grid">
+                    <img class="collage-four-img-two" src="Images\photo-7.avif">
+                </div>
             </div>
-            <div>
-                <p>We want our employees to love it here. Since we're looking for exceptional talent from around the world, we will do everything we can to make your transition as easy as possible.</p>
-                <div>
+            <!--Sixth Section-->
+            <div class="sixth-section">
+                <div class="sixth-section-first-text">
+                    <p>We want our employees to love it here. Since we're looking for exceptional talent from around the world, we will do everything we can to make your transition as easy as possible.</p>
+                </div>
+                <div class="sixth-section-second-text">
                     <p>If you're joining us in Berlin, we'll help with relocation and paperwork. We'll even provide you with free German or English lessons. Plus, working in Germany means you can expect comprehensive health insurance for you and your family, as well as generous maternity and paternity leave. Office hours are flexible, but it's not all work; we have several company and team outings throughout the year as well as a variety of fun, informal small-group activities.</p>
                 </div>
             </div>
-            <div>
-                <div>
-                    <img src="Images\photo-8.avif">
+            <!--Seventh Section & Img-->
+            <div class="seventh-section-img-grid">
+                <div class="collage-five-bg-color-grid">
+                    <div class="bg-color-lightblue"></div>
                 </div>
-                <div>
-                    <p>We're really proud of the work we've done so far. But there's so much more to come. If you'd like to be a part of it, please join us.</p>
-                    <div>
-                        <p>See latest jobs</p>
+                <div class="collage-five-img-grid">
+                    <img class="collage-five-img" src="Images\photo-8.avif">
+                </div>
+                <div class="collage-five-img-first-text-grid">
+                    <div class="collage-five-first-text">
+                        <p>We're really proud of the work we've done so far. But there's so much more to come. If you'd like to be a part of it, please join us.</p>
+                    </div>
+                </div>
+                <div class="collage-five-second-text-grid">
+                    <div class="collage-five-second-text-link">
+                        <a class="careers-link" href="https://www.ableton.com/en/jobs/">See latest jobs</a>
                     </div>
                 </div>
             </div>
         </div>
     </main>
 
-    <footer>
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer-separator"></div>
+        <!--Footer Header-->
+        <div class="footer-header">
+            <p>About</p>
+        </div>
+        <!--Footer Content-->
+        <div class="footer-content-grid">
+            <!--Social Media, Register, About, & Jobs Links-->
+            <div class="social-jobs-links">
+                <div class="register-about-jobs-links">
+                    <a class="register-link" href="https://www.ableton.com/en/account/add_license/">Register Live, Push or Move</a>
+                    <a class="about-link" href="https://www.ableton.com/en/about/">About Ableton</a>
+                    <a class="jobs-link" href="https://www.ableton.com/en/jobs/">Jobs</a>
+                </div>
+                <div>
+                    <a href="http://facebook.com/ableton">
+                        <img src="C:\Users\taylo\resources\Visual Studio Code Projects\Codecademy Projects\DevProjects\DevProject Flexbox-Business-Site-Starting\Images\Ableton-Link-Logos\facebook-circle.png">
+                    </a>
+                    <a href="http://twitter.com/ableton">
+                        <img src="C:\Users\taylo\resources\Visual Studio Code Projects\Codecademy Projects\DevProjects\DevProject Flexbox-Business-Site-Starting\Images\Ableton-Link-Logos\twitter-x.png">
+                    </a>
+                    <a href="http://youtube.com/ableton">
+                        <img src="C:\Users\taylo\resources\Visual Studio Code Projects\Codecademy Projects\DevProjects\DevProject Flexbox-Business-Site-Starting\Images\Ableton-Link-Logos\youtube.png">
+                    </a>
+                    <a href="http://instagram.com/ableton">
+                        <img src="C:\Users\taylo\resources\Visual Studio Code Projects\Codecademy Projects\DevProjects\DevProject Flexbox-Business-Site-Starting\Images\Ableton-Link-Logos\Instagram_Glyph_Gradient.png">
+                    </a>
+                    <a href="http://tiktok.com/@ableton">
+                        <img src="C:\Users\taylo\resources\Visual Studio Code Projects\Codecademy Projects\DevProjects\DevProject Flexbox-Business-Site-Starting\Images\Ableton-Link-Logos\Tiktok-Icon--Streamline-Svg-Logos.png">
+                    </a>
+                    <a href="https://discord.com/invite/ableton">
+                        <img src="C:\Users\taylo\resources\Visual Studio Code Projects\Codecademy Projects\DevProjects\DevProject Flexbox-Business-Site-Starting\Images\Ableton-Link-Logos\discord-alt.png">
+                    </a>
+                </div>
+            </div>
+            <!--Community Links-->
+            <div class="community-links">
+                <p class="community">Community</p>
+                <a class="ableton-groups-link" href="https://www.ableton.com/en/community/user-groups/">Find Ableton User Groups</a>
+                <a class="training-link" href="https://www.ableton.com/en/certified-training/">Find Certified Training</a>
+                <a class="trainer-link" href="https://www.ableton.com/en/education/certification-program/">Become a Certified Trainer</a>
+            </div>
 
+            <!--Education Links-->
+            <div class="education-links">
+                <p class="education">Education</p>
+                <a class="teacher-students-link" href="https://www.ableton.com/en/shop/education/">Offers for students and teachers</a>
+                <a class="classroom-link" href="https://www.ableton.com/en/shop/education/">Ableton for the classroom</a>
+                <a class="colleges-universities-link" href="https://www.ableton.com/en/colleges-universities/">Ableton for Colleges and Universities</a>
+            </div>
+
+            <!--Language Change Dropdown Menu-->
+            <div class="language-dropdown">
+                <div class="language-change">
+                    <p>Language</p>
+                </div>
+                <div class="language-menu">
+                    <select class="language-options">
+                        <option class="english-selection" value="english">English</option>
+                        <option class="dutch-selection" value="Deutsch">Deutsch</option>
+                        <option class="french-selection" value="Français">Français</option>
+                        <option class="chinese-selection" value="日本語">日本語</option>
+                        <option class="japanese-selection" value="简体中文">简体中文</option>
+                        <option class="spanish-selection" value="Español">Español</option>
+                    </select>
+                </div>
+            </div>
+
+            <!--Newsletter Sign Up-->
+            <div class="newsletter-sign-up">
+                <div class="sign-up">
+                    <p>Sign up to our newsletter</p>
+                </div>
+                <div class="enter-email">
+                    <p class="enter">Enter your email address to stay up to date with the latest offers, tutorials, downloads, surveys and more.</p>
+                    <div class="email-input">
+                        <form class="form" method="post" action="submit">
+                            <label for="email"></label>
+                            <input class="placeholder" type="email" placeholder="Email Address" id="email">
+                            <button class="submit" type="submit">Sign Up</button>
+                        </form>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer Remaining Info Nav Bar-->
+        <div class="footer-remainder">
+            <div class="footer-links">
+                <a href="https://www.ableton.com/en/contact-us/">Contact Us</a>
+                <a href="https://www.ableton.com/en/press/">Press Resources</a>
+                <a href="https://www.ableton.com/en/legal/">Legal Info </a>
+                <a href="https://www.ableton.com/en/corporate-information/">Corporate Information</a>
+                <a href="https://www.ableton.com/en/privacy-policy/">Privacy Policy</a>
+                <a href="https://www.ableton.com/en/cookie-settings/">Cookie Settings</a>
+                <a href="https://www.ableton.com/en/imprint/">Imprint</a>
+            </div>
+            <div class="country-site-made-logo">
+                <p class="country-site-made">Made in Berlin</p>
+                <img class="logo" src="C:\Users\taylo\resources\Visual Studio Code Projects\Codecademy Projects\DevProjects\DevProject Flexbox-Business-Site-Starting\Images\Ableton-Link-Logos\pngwing.com.png">
+            </div>
+        </div>
     </footer>
     
 </html>
