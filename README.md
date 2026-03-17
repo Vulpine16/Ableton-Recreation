@@ -1,1 +1,9 @@
-Attempting to practice typography, spacing, and grid layout.
+PROJECT: Ableton Music Website Page Recreation
+
+OVERVIEW: As a UI/UX design hobhyist I tried recreating the Ableton music website home page from scratch. The purpose of this project was to practice using and regurgitating info and using handwritten notes I handwritten from my Codecademy courses. With a focus on using CSS grid layout, typography, and spacing.
+
+TECHNOLOGIES & SUPPLIES: My main tools I used were HTML and CSS in addition to collecting fonts and typefaces, image assets and links from the original website to simulate functionality, and logo images for social media links.
+
+METHOD: So far, I'll admit there was no rhythm at the start of the project, as this was my first time tackling a big project. I wasn't really committing to any kind of plan or technique. But towards the halfway point I decided to buckle down and focus on a few points for finishing the project: which was mostly using grids and spacing to accomplish everything. Towards the end I was sort of locked in and barely had to reference any of notes or Google anything if there was a problem.
+
+WHAT I LEARNED: I learned to always come up with a plan of action before starting anything. If you stay ready you don't have to get ready. I also learned to utilize div tags and classes to give myself full control over every single element. I even learned how to use to Chrome DevTools to give myself references or ideas for how real world devs construct and use design tools and methods to construct actual company opened sites and pages. Like a header or footer separator to divide a page into sections.
