@@ -1,0 +1,690 @@
+/* Header/Nav Links */
+.header {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-separator {
+    display: block;
+    height: 0;
+    border-top: 2px solid #eee;
+}
+
+.header-links {
+    height: 60px;
+    display: flex;
+    padding-right: 20px;
+}
+
+.right-side-links {
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+}
+
+.trial-login-links {
+    position: relative;
+    top: 10px;
+    margin-left: auto;
+}
+
+.a-trial {
+    color: #0000ff;
+    margin-right: 20px;
+}
+
+.second-header-links {
+    display: block;
+    padding-top: 20px;
+}
+
+.header-about-link {
+    color: #ff764d;
+    font-size: 16px;
+}
+
+.header-jobs-link {
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+}
+
+.apprenticeships-link {
+    position: relative;
+    left: 15px;
+}
+
+/* Main Content */
+.opening {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.brand-name {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    color: #ff764d;
+    font-weight: 500;
+    position: absolute;
+    left: 40%;
+    font-size: 110px;
+}
+/* First Section*/
+.first-section {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    display: grid;
+    /*justify-content: center;
+    align-items: center;*/
+    position: relative;
+    left: 50px;
+    margin-left: 550px;
+    margin-right: 620px;
+}
+
+.first-text {
+    font-weight: 500;
+    line-height: 60px;
+    
+}
+
+.product-link {
+    color: blue;
+}
+/* Collage One */
+.collage-one {
+    padding-top: 80px;
+    padding-bottom: 95px;
+    display: grid;
+}
+
+.collage-img-one-grid {
+    display: grid;
+    grid-area: 1 / 1;
+    align-items: center;
+    width: 700px;
+    position: relative;
+    left: 400px;
+}
+
+.collage-img-one {
+    width: 700px;
+    height: 570px;
+    display: grid;
+    grid-template-rows: 570px;
+    grid-template-columns: 700px;
+    
+}
+
+.bg-color-grid {
+    display: grid;
+    grid-area: 1 / 1;
+}
+
+.bg-color-lemonade {
+    background-color: #fbffa7;
+    width: 1000px;
+    height: 800px;
+    position: relative;
+    margin-left: auto;
+}
+
+.collage-img-two-grid {
+    display: grid;
+    grid-area: 1 / 1;
+    align-items: center;
+    width: 450px;
+    position: relative;
+    left: 1300px;
+}
+
+.collage-img-two {
+    width: 450px;
+    height: 345px;
+}
+/* Second Section */
+.second-section-first-text {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    left: 50px;
+    margin-left: 550px;
+    margin-right: 620px;
+}
+
+.second-section-second-text {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    position: relative;
+    bottom: 20px;
+    left: 50px;
+    margin-left: 550px;
+    margin-right: 620px;
+    padding-bottom: 95px;
+}
+/* YouTube Video */
+.youtube-video {
+    margin-left: 600px;
+    padding-bottom: 95px;
+}
+/* Third Section */
+.third-section-first-text {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    left: 50px;
+    margin-left: 550px;
+    margin-right: 620px;
+}
+
+.third-section-second-text {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    position: relative;
+    bottom: 20px;
+    left: 50px;
+    margin-left: 550px;
+    margin-right: 620px;
+    padding-bottom: 95px;
+}
+/* Collage Two */
+.collage-two {
+    padding-bottom: 115px;
+    display: grid;
+}
+
+.collage-two-bg-color-grid {
+    display: grid;
+    grid-area: 1 / 1;
+}
+
+.bg-color-lime {
+    background-color: #b6ffc0;
+    height: 1200px;
+    width: 1130px;
+}
+
+.collage-two-img-one-grid {
+    display: grid;
+    grid-area: 1 / 1;
+    position: relative;
+    top: 80px;
+}
+
+.collage-two-img-one {
+    width: 600px;
+    height: 423.5px;
+    position: relative;
+    left: 80px;
+    top: 30px;
+}
+
+.collage-two-img-two-grid {
+    display: grid;
+    grid-area: 1 / 1;
+    position: relative;
+    bottom: 80px;
+    align-content: end;
+}
+
+.collage-two-img-two {
+    width: 600px;
+    height: 423.5px;
+    position: relative;
+    left: 80px;
+    bottom: 30px;
+}
+
+.collage-two-img-three-grid {
+    display: grid;
+    grid-area: 1 / 1;
+    position: relative;
+    margin-left: auto;
+    align-items: center;
+}
+
+.collage-two-img-three {
+    height: 800px;
+    width: auto;
+    position: relative;
+    right: 230px;
+}
+/* Fourth Section */
+.fourth-section-first-text {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    left: 50px;
+    margin-left: 550px;
+    margin-right: 620px;
+}
+
+.fourth-section-second-text {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    position: relative;
+    bottom: 20px;
+    left: 50px;
+    margin-left: 550px;
+    margin-right: 620px;
+    padding-bottom: 95px;
+}
+/* Collage Three */
+.collage-three {
+    display: grid;
+    justify-content: center;
+    padding-bottom: 115px;
+}
+/* Fifth Section */
+.fifth-section-first-text {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    left: 50px;
+    margin-left: 550px;
+    margin-right: 620px;
+}
+
+.fifth-section-second-text {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+    margin-left: 550px;
+    margin-right: 620px;
+}
+
+.fifth-section-third-text {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+    margin-left: 550px;
+    margin-right: 620px;
+    padding-bottom: 95px;
+}
+/* Collage Four */
+.collage-four {
+    display: grid;
+    padding-bottom: 115px;
+}
+
+.collage-four-bg-color-grid {
+    display: grid;
+    grid-area: 1 / 1;
+    justify-items: center;
+}
+
+.bg-color-magenta {
+    background-color: #d5b3ff;
+    width: 1070px;
+    height: 930px;
+}
+
+.collage-four-img-one-grid {
+    display: grid;
+    grid-area: 1 / 1;
+    align-items: center;
+}
+
+.collage-four-img-one {
+    height: auto;
+    width: 530px;
+    position: relative;
+    left: 250px;
+}
+
+.collage-four-img-two-grid {
+    display: grid;
+    grid-area: 1 / 1;
+    align-items: center;
+    justify-items: end;
+}
+
+.collage-four-img-two {
+    height: auto;
+    width: 820px;
+    position: relative;
+    right: 120px;
+}
+/* Sixth Section */
+.sixth-section-first-text {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 35px;
+    font-weight: 500;
+    position: relative;
+    left: 50px;
+    margin-left: 550px;
+    margin-right: 620px;
+    padding-top: 80px;
+}
+
+.sixth-section-second-text {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    position: relative;
+    left: 50px;
+    margin-left: 550px;
+    margin-right: 620px;
+    padding-bottom: 80px;
+}
+
+/* Seventh Section & Img */
+.seventh-section-img-grid {
+    display: grid;
+    padding-bottom: 120px;
+}
+
+.collage-five-bg-color-grid {
+    display: grid;
+    grid-area: 1 / 1;
+    justify-items: end;
+}
+
+.bg-color-lightblue {
+    background-color: #b1c5ff;
+    width: 670px;
+    height: 670px;
+    position: relative;
+    right: 250px;
+}
+
+.collage-five-img-grid {
+    display: grid;
+    grid-area: 1 / 1;
+    align-items: center;
+}
+
+.collage-five-img {
+    height: auto;
+    width: 650px;
+    position: relative;
+    left: 319px;
+    bottom: 15px;
+}
+
+.collage-five-img-first-text-grid {
+    display: grid;
+    grid-area: 1 / 1;
+    width: 550px;
+    align-content: center;
+    position: relative;
+    left: 1038px;
+    bottom: 90px;
+}
+
+.collage-five-first-text {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 28px;
+    font-weight: 500;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.collage-five-second-text-grid {
+    display: grid;
+    grid-area: 1 / 1;
+    align-content: center;
+    justify-items: end;
+}
+
+.collage-five-second-text-link {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 28px;
+    font-weight: 500;
+    position: relative;
+    right: 622px;
+    top: 100px;
+}
+
+.careers-link {
+    color: #0000ff;
+}
+
+/* Footer */
+.footer {
+    display: grid;
+}
+
+.footer-separator {
+    display: block;
+    height: 0;
+    border-top: 2px solid #eee;
+}
+/* Footer Header */
+.footer-header {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-weight: 500;
+    font-size: 110px;
+    padding-left: 120px;
+    display: grid;
+    grid-template-rows: 95%;
+}
+/* Footer Content */
+.footer-content-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(3, 50%);
+}
+/* Social Media, Register, About, & Jobs Links */
+.social-jobs-links {
+    display: grid;
+    grid-template-columns: 60%;
+    position: relative;
+    left: 120px;
+}
+.register-about-jobs-links {
+    display: grid;
+    grid-template-rows: repeat(4, 30%);
+}
+.register-link {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 20px;
+    font-weight: 400;
+}
+.about-link {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+.jobs-link {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 20px;
+    font-weight: 400;
+}
+/* Community Links */
+.community-links {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: repeat(4, 29px);
+    grid-area: 2 / 1 / 2 / 1;
+    position: relative;
+    left: 120px;
+    top: 10px;
+}
+.community {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+.ableton-groups-link {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+.training-link {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+.trainer-link {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+/* Education Links */
+.education-links {
+    display: grid;
+    grid-template-columns: 65%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-area: 1 / 2 / 1 / 2;
+}
+.education {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+.teacher-students-link {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 20px;
+    font-weight: 400;
+}
+.classroom-link {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 20px;
+    font-weight: 400;
+}
+.colleges-universities-link {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 20px;
+    font-weight: 400;
+}
+/* Language Change Dropdown Menu */
+.language-dropdown {
+    display: grid;
+    grid-template-columns: 40%;
+    grid-template-rows: 50% 50%;
+    grid-area: 2 / 2 / 2 / 2;
+    position: relative;
+}
+.language-change {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+.language-options {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    background: transparent;
+    background-color: #eee;
+    border: 0;
+    border-radius: 0;
+    height: 30px;
+    padding: 4.9px 50px 4.9px 10.5px;
+}
+/* Newsletter Sign Up */
+.newsletter-sign-up {
+    display: grid;
+    grid-area: 1 / 3 / 1 / 3;
+    grid-template-rows: 20% auto;
+    justify-items: start;
+}
+.sign-up {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    bottom: 20px;
+}
+.enter-email {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+}
+.email-input, .email, .placeholder, .submit {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 20px;
+}
+.placeholder {
+    background: transparent;
+    background-color: #eee;
+    border: 0;
+    border-radius: 0;
+    user-select: none;
+    margin: 0;
+    width: 50%;
+    font-weight: normal;
+    padding: 8px 15px;
+}
+.submit {
+    background-color:#0000ff;
+    margin: 0;
+    padding: 7px 30px;
+    font-weight: bold;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+}
+.form {
+    position: relative;
+    top: 10px;
+}
+.enter {
+    margin: 0;
+}
+/* Footer Remaining Info Nav Bar */
+.footer-remainder {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-area: 3 / span 3;
+    align-items: center;
+}
+.footer-links {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: 100px 130px 100px 173px 110px 130px 70px;
+    position: relative;
+    left: 110px;
+    justify-items: center;
+}
+.country-site-made-logo {
+    font-family: Jost, Roboto, 'Nunito Sans', 'Open Sans', 'Noto Sans';
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: 130px 100px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
